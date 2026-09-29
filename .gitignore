@@ -1,0 +1,12 @@
+.DS_Store
+.idea/
+java-client/target/
+java-client/models/
+*.onnx
+*.pt
+*.bin
+*.safetensors
+python-service/venv/
+python-service/.venv/
+__pycache__/
+.env

@@ -1,0 +1,442 @@
+{
+  "dog.jpeg": {
+    "image": "dog.jpeg",
+    "objects": [
+      "dog",
+      "grass",
+      "tree",
+      "hedge",
+      "house"
+    ],
+    "actions": [
+      {
+        "object": "dog",
+        "action": "sitting on the grass and smiling"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "dog",
+        "relation": "on top of",
+        "object": "grass"
+      },
+      {
+        "subject": "grass",
+        "relation": "in front of",
+        "object": "hedge"
+      },
+      {
+        "subject": "hedge",
+        "relation": "in front of",
+        "object": "house"
+      },
+      {
+        "subject": "tree",
+        "relation": "next to",
+        "object": "hedge"
+      }
+    ],
+    "description": "A happy golden retriever dog sits on a green lawn in a sunny backyard with trees, a hedge, and a house in the background."
+  },
+  "cat.jpeg": {
+    "image": "cat.jpeg",
+    "objects": [
+      "cat",
+      "grass",
+      "daisy"
+    ],
+    "actions": [
+      {
+        "object": "cat",
+        "action": "lying on its back in the grass with eyes closed"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "cat",
+        "relation": "on top of",
+        "object": "grass"
+      },
+      {
+        "subject": "daisy",
+        "relation": "left of",
+        "object": "cat"
+      }
+    ],
+    "description": "An orange and white cat is lying on its back in the grass among many small white daisies, basking in the sun with a content expression."
+  },
+  "handshake.jpg": {
+    "image": "handshake.jpg",
+    "objects": [
+      "handshake",
+      "person 1",
+      "person 2",
+      "table"
+    ],
+    "actions": [
+      {
+        "object": "person 1",
+        "action": "shaking hands with person 2"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "handshake",
+        "relation": "on top of",
+        "object": "table"
+      },
+      {
+        "subject": "person 1",
+        "relation": "left of",
+        "object": "person 2"
+      }
+    ],
+    "description": "Two people are shaking hands over a table in a close-up shot."
+  },
+  "handshake-2.jpg": {
+    "image": "handshake-2.jpg",
+    "objects": [
+      "person 1",
+      "person 2",
+      "hand 1",
+      "hand 2",
+      "bracelet",
+      "ring",
+      "button",
+      "dress"
+    ],
+    "actions": [
+      {
+        "object": "person 1",
+        "action": "shaking hands with person 2"
+      },
+      {
+        "object": "person 2",
+        "action": "shaking hands with person 1"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "hand 1",
+        "relation": "next to",
+        "object": "hand 2"
+      },
+      {
+        "subject": "bracelet",
+        "relation": "on top of",
+        "object": "hand 1"
+      },
+      {
+        "subject": "ring",
+        "relation": "on top of",
+        "object": "hand 1"
+      },
+      {
+        "subject": "button",
+        "relation": "on top of",
+        "object": "dress"
+      }
+    ],
+    "description": "A black and white close-up shot showing two people shaking hands. One person is wearing a dark dress with prominent buttons and a decorative bracelet on their wrist."
+  },
+  "teamwork.jpg": {
+    "image": "teamwork.jpg",
+    "objects": [
+      "person 1",
+      "person 2",
+      "laptop",
+      "notepad",
+      "pen",
+      "table",
+      "tie"
+    ],
+    "actions": [
+      {
+        "object": "person 1",
+        "action": "typing on laptop"
+      },
+      {
+        "object": "person 2",
+        "action": "writing on notepad"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "laptop",
+        "relation": "on top of",
+        "object": "table"
+      },
+      {
+        "subject": "notepad",
+        "relation": "on top of",
+        "object": "table"
+      },
+      {
+        "subject": "notepad",
+        "relation": "below",
+        "object": "laptop"
+      },
+      {
+        "subject": "pen",
+        "relation": "holding",
+        "object": "person 2"
+      },
+      {
+        "subject": "tie",
+        "relation": "on top of",
+        "object": "person 2"
+      }
+    ],
+    "description": "An overhead shot shows two people sitting at a wooden table. One person is typing on a laptop while the other is writing notes on a yellow notepad with a pen."
+  },
+  "whale.jpg": {
+    "image": "whale.jpg",
+    "objects": [
+      "orca",
+      "person 1",
+      "person 2",
+      "person 3",
+      "audience",
+      "pool",
+      "stadium",
+      "building"
+    ],
+    "actions": [
+      {
+        "object": "orca",
+        "action": "jumping out of water"
+      },
+      {
+        "object": "person 1",
+        "action": "running"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "orca",
+        "relation": "inside",
+        "object": "pool"
+      },
+      {
+        "subject": "person 1",
+        "relation": "left of",
+        "object": "pool"
+      },
+      {
+        "subject": "audience",
+        "relation": "in front of",
+        "object": "stadium"
+      },
+      {
+        "subject": "stadium",
+        "relation": "left of",
+        "object": "building"
+      },
+      {
+        "subject": "pool",
+        "relation": "below",
+        "object": "building"
+      },
+      {
+        "subject": "person 2",
+        "relation": "behind",
+        "object": "person 3"
+      },
+      {
+        "subject": "person 3",
+        "relation": "left of",
+        "object": "person 2"
+      }
+    ],
+    "description": "An orca is captured mid-air as it jumps out of a large pool in a stadium filled with spectators."
+  },
+  "car.jpeg": {
+    "image": "car.jpeg",
+    "objects": [
+      "car",
+      "parking lot",
+      "parking space",
+      "parking line",
+      "cone",
+      "wall",
+      "canopy",
+      "pole"
+    ],
+    "actions": [],
+    "relationships": [
+      {
+        "subject": "car",
+        "relation": "on top of",
+        "object": "parking lot"
+      },
+      {
+        "subject": "car",
+        "relation": "inside",
+        "object": "parking space"
+      },
+      {
+        "subject": "parking line",
+        "relation": "in front of",
+        "object": "car"
+      },
+      {
+        "subject": "wall",
+        "relation": "behind",
+        "object": "car"
+      },
+      {
+        "subject": "canopy",
+        "relation": "behind",
+        "object": "car"
+      },
+      {
+        "subject": "cone",
+        "relation": "behind",
+        "object": "car"
+      },
+      {
+        "subject": "pole",
+        "relation": "behind",
+        "object": "car"
+      },
+      {
+        "subject": "parking space",
+        "relation": "on top of",
+        "object": "parking lot"
+      },
+      {
+        "subject": "parking line",
+        "relation": "on top of",
+        "object": "parking lot"
+      },
+      {
+        "subject": "wall",
+        "relation": "behind",
+        "object": "parking lot"
+      },
+      {
+        "subject": "canopy",
+        "relation": "behind",
+        "object": "parking lot"
+      },
+      {
+        "subject": "cone",
+        "relation": "on top of",
+        "object": "parking lot"
+      },
+      {
+        "subject": "pole",
+        "relation": "behind",
+        "object": "wall"
+      }
+    ],
+    "description": "A sleek gray Porsche 911 sports car is parked in a designated space in a parking lot at night. The background features a brick wall, a security fence, and a large metal canopy structure lit from above."
+  },
+  "group.jpeg": {
+    "image": "group.jpeg",
+    "objects": [
+      "person 1",
+      "person 2",
+      "person 3",
+      "person 4",
+      "person 5",
+      "person 6",
+      "table",
+      "window",
+      "clock",
+      "door",
+      "plant",
+      "printer",
+      "cabinet"
+    ],
+    "actions": [
+      {
+        "object": "person 1",
+        "action": "standing"
+      },
+      {
+        "object": "person 2",
+        "action": "sitting"
+      },
+      {
+        "object": "person 3",
+        "action": "sitting"
+      },
+      {
+        "object": "person 4",
+        "action": "sitting"
+      },
+      {
+        "object": "person 5",
+        "action": "sitting"
+      },
+      {
+        "object": "person 6",
+        "action": "sitting"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "person 1",
+        "relation": "in front of",
+        "object": "table"
+      },
+      {
+        "subject": "person 2",
+        "relation": "left of",
+        "object": "table"
+      },
+      {
+        "subject": "person 3",
+        "relation": "behind",
+        "object": "table"
+      },
+      {
+        "subject": "person 4",
+        "relation": "right of",
+        "object": "table"
+      },
+      {
+        "subject": "person 5",
+        "relation": "left of",
+        "object": "table"
+      },
+      {
+        "subject": "person 6",
+        "relation": "right of",
+        "object": "table"
+      },
+      {
+        "subject": "table",
+        "relation": "in front of",
+        "object": "window"
+      },
+      {
+        "subject": "clock",
+        "relation": "left of",
+        "object": "window"
+      },
+      {
+        "subject": "door",
+        "relation": "left of",
+        "object": "window"
+      },
+      {
+        "subject": "plant",
+        "relation": "in front of",
+        "object": "window"
+      },
+      {
+        "subject": "printer",
+        "relation": "right of",
+        "object": "window"
+      },
+      {
+        "subject": "cabinet",
+        "relation": "below",
+        "object": "printer"
+      }
+    ],
+    "description": "Six identical men with glasses in suits are gathered around a table in a small office with a fisheye lens perspective."
+  }
+}
